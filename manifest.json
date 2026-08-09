@@ -1,0 +1,108 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Norman Fellows Scrapbook Viewer"
+    ]
+  },
+  "items": [
+    {
+      "id": "canvas-1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Supplement No. 4 — Housing"
+        ]
+      },
+      "width": 1050,
+      "height": 849,
+      "items": [
+        {
+          "id": "annotation-page-1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "annotation-1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "images/item_16818.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1050,
+                "height": 849
+              },
+              "target": "canvas-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canvas-2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Supplement No. 5 — Housing"
+        ]
+      },
+      "width": 1050,
+      "height": 849,
+      "items": [
+        {
+          "id": "annotation-page-2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "annotation-2",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "images/item_16842.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1050,
+                "height": 849
+              },
+              "target": "canvas-2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canvas-3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "PRINCIPLES"
+        ]
+      },
+      "width": 1050,
+      "height": 849,
+      "items": [
+        {
+          "id": "annotation-page-3",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "annotation-3",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "images/item_16825.png",
+                "type": "Image",
+                "format": "image/png",
+                "width": 1050,
+                "height": 849
+              },
+              "target": "canvas-3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
